@@ -1,0 +1,44 @@
+
+body{ 
+    height: 90px;
+    background-color: rgb(143, 153, 153);
+    
+
+}
+.container-fluid{
+    min-height: 90px;
+}
+h1{
+    margin-left: 30px;
+}
+/* servecess*/
+.i-colo{
+    color:rgb(246, 250, 8);
+
+}
+/* service subtitle*/
+.ss-color{
+    color: rgb(214, 231, 231);
+}
+
+a.nav-link.active{
+    color: #cef010;
+    background-color: yellow;
+    font-weight: bold;
+}
+.st-font{
+    font-family: "satisfy";
+}
+img{
+    height: 140px; 
+    width: 310px;
+}
+.rk
+{
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 10px;
+    background-image:linear-gradient(green,red,blue);
+    
+
+}
