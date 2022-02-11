@@ -1,36 +1,45 @@
-{% extends "core/base.html" %}
-{% load static %}
-{% block content %} 
-<div class="text-center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+   h2{
+     margin-left: 400px;
+     border-radius: 10px;
+     border: 4px solid;
+     height: 400px;
+     width: 500px;
+     text-align:center;
+     background-image:linear-gradient(red,green,blue);
+      }
+      h1{
+        margin-left: 400px;
+        color: red;
+        border-radius: 20px;
+        background-color: rgb(230, 213, 213);
+        width: 500px;
+        text-align: center;
+      }
+   
+ </style>
+</head>
+<body>
+ 
+  <form action="pracet">
+    <h1> CHECK AMOUNT OF PARCENTAGE </h1><BR>
+   
+  <h2>
+      INTER_AMOUNT : <input type="text" name="num1"><br><br><br>
+   
+      INTER_PERCENTAGE : <input type="text" name="num2"><br><br><br>
 
-   <img src="{% static 'style/img/rkdf.jfif' %}" alt="profilepick" 
-   class="img-thumbnail mt-4 " width="240px" height="140">
-
-</div>
-    <div class="mt-5 text-black mx-5 text-justify> 
-         <h2 class="fornt-weight-bold st-font><h3>hello,</h3></h2>
-
-
-
-    <div class="px-4" style="line-height: 2rem;">
-        
-                 <b dear  class="text-warining">Pichai Sundararajan</b>  
-                 <p class="text-justify"> Pichai Sundararajan (born June 10, 1972 ),
-                   better known as Sundar Pichai (/ˈsʊndɑːr pɪˈtʃaɪ/),
-                   is an Indian-American business executive.
-                   He is the chief executive officer (CEO) of Alphabet Inc.
-                   Moving to the United States, he attained an M.S. 
-                   from Stanford University in materials science and
-                   engineering and further attained an MBA from the
-                   Wharton School of the University of Pennsylvania.</p>
-                  </p> 
-    </div>
-    </div>
-        <div class="text-center">
-          <a href="" class="btn btn-outline-warning my-3 mr-5">hire-me</a>
-          <a href=""class="btn btn-outline-info my-3 mr-5">contect</a>
-        </div>
-
-</div>
-
-{% endblock content %}
+      INTER_TIME : <input type="text" name="num3"><br><br>
+   
+      <input type="submit" name="pracet">
+  </form>
+</h2>
+</body>
+</html>
